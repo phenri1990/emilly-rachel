@@ -1,0 +1,190 @@
+* {
+   margin: 0;
+   padding: 0;
+   background: none;
+   border: 0;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+   color: var(--neutral-darkest);
+}
+
+html {
+   font-size: 8px;
+}
+
+/* VARIÁVEIS */
+:root {
+   --primary: #EB6475;
+   --primary-dark: #c85160;
+   --primary-lightest: #FFF1F3;
+   --neutral-darkest: #003D51;
+   --neutral-lightest: #F4F4F4;
+}
+
+.text-primary {
+   color: var(--primary);
+}
+
+
+/* GENERAL */
+img {
+   max-width: 100%;
+}
+
+h1 {
+   font-size: 28px;
+   letter-spacing: -0.5px;
+   line-height: 4rem;
+   margin-bottom: 1rem;
+}
+
+h2 {
+   font-size: 20px;
+   line-height: 3rem;
+   margin-bottom: 4rem;
+}
+
+h3 {
+   font-size: 14px;
+   line-height: 2rem;
+   margin-bottom: 1rem;
+}
+
+p, q {
+   font-size: 12px;
+   line-height: 2.5rem;
+   margin-bottom: 2rem;
+}
+
+.container {
+   width: 100%;
+   max-width: 1200px;
+   padding: 0 3rem;
+}
+
+.btn {
+   background: var(--primary);
+   color: #fff;
+   font-size: 14px;
+   font-weight: bold;
+   display: inline-flex;
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem 3rem;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.btn:hover{
+   background-color: var(--primary-dark);
+}
+
+/* HEADER */
+.header {
+   padding: 2rem 0;
+}
+
+.header-brand {
+   height: 6rem;
+}
+
+/* HERO */
+.hero-text {
+   margin: 4rem 0 6rem;
+}
+
+.hero-text p {
+   font-size: 14px;
+   margin-bottom: 3rem;
+}
+
+.hero-image {
+   margin: 0 0 -4px;
+}
+
+/* SERVIÇOS */
+.services {
+   padding: 4rem 0;
+   background-color: var(--neutral-darkest);
+}
+
+.services p,
+.services h2,
+.services h3 {
+   color: #fff;
+}
+
+.services-grid {
+   display: grid;
+   gap: 2rem;
+   grid-template-columns: 1fr 1fr;
+}
+
+.services-item img {
+   border-radius: 4px;
+   margin-bottom: 2rem;
+}
+
+.services .btn{
+   margin-top: 2rem;
+}
+
+/* COMO FUNCIONA */
+.detail{
+   padding: 4rem 0;
+   background-color: var(--neutral-darkest);
+}
+
+.detail p,
+.detail h2,
+.detail h3 {
+   color: #fff;
+}
+
+.detail .btn{
+   margin-top: 4rem;
+}
+
+/* DEPOIMENTOS */
+.depositions{
+   padding: 4rem 0;
+}
+
+.depositions-grid{
+   display: flex;
+   gap: 2rem;
+   overflow-x: scroll;
+   margin: 0 -3rem;
+   padding: 0 3rem;
+}
+
+.depositions-item{
+   background: var(--neutral-lightest);
+   padding: 3rem;
+   border-radius: 1rem;
+   width: 90%;
+   flex-shrink: 0;
+}
+
+.depositions-patient{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+.depositions-avatar{
+   border-radius: 100px;
+   width: 5rem;
+}
+
+.depositions-info h4,
+.depositions-info small{
+   font-size: 12px;
+}
+
+/* FOOTER */
+.footer{
+   background-color: var(--neutral-darkest);
+}
