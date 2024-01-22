@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <!-- Google Tag Manager -->
-   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-   })(window,document,'script','dataLayer','GTM-5KMTMVQ');</script>
+   <script>(function (w, d, s, l, i) {
+         w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+               new Date().getTime(), event: 'gtm.js'
+         }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+               'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-5KMTMVQ');</script>
    <!-- End Google Tag Manager -->
 
    <meta charset="UTF-8">
@@ -16,29 +20,39 @@
    <link rel="icon" type="image/png" href="img/favicon.png">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
    <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> -->
 
 </head>
-<body>
+
+<body id="body">
    <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KMTMVQ"
-   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KMTMVQ" height="0" width="0"
+         style="display:none;visibility:hidden"></iframe></noscript>
    <!-- End Google Tag Manager (noscript) -->
 
    <header class="header">
       <div class="container">
-         <a href="index.html">
-            <img class="header-brand" src="img/logo-emilly-rachel-fisioterapeuta.png" alt="Emilly Rachel Fisioterapeuta">
-         </a>
-         <!-- <nav class="header-nav">
-            <ul>
-               <li>Serviços</li>
-               <li>Sobre</li>
-               <li>Contato</li>
-            </ul>
-         </nav> -->
+         <div class="header-grid">
+            <a href="index.html">
+               <img class="header-brand" src="img/logo-emilly-rachel-fisioterapeuta.svg"
+                  alt="Emilly Rachel Fisioterapeuta">
+            </a>
+            <nav class="header-nav">
+               <ul>
+                  <li>
+                     <a href="#servicos">Serviços</a>
+                  </li>
+                  <li>
+                     <a href="#depoimentos">Depoimentos</a>
+                  </li>
+                  <li>
+                     <a href="#sobre">Sobre</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
       </div>
    </header>
 
@@ -47,132 +61,197 @@
       <!-- VITRINE -->
       <div class="hero">
          <div class="container">
-            <div class="hero-text">
-               <h1>Viva <span class="text-primary">sem dores</span> e recupere seu bem-estar.</h1>
-               <p>Através de um tratamento personalizado vamos trabalhar pela recuperação da sua mobilidade e qualidade de vida.</p>
-               <a class="btn" href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento" target="_blank"> <img src="img/icon-whatsapp.svg" alt="Whatsapp - Emilly Rachel">Fale comigo sem compromisso</a>
+            <div class="hero-grid">
+               <div class="hero-text">
+                  <h1><span class="text-primary">Acabe com as dores</span> e viva plenamente.</h1>
+                  <p>Através de um tratamento personalizado vamos trabalhar pela recuperação da sua mobilidade e
+                     qualidade de vida.</p>
+                  <a class="btn"
+                     href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento"
+                     target="_blank"> <img src="img/icon-whatsapp.svg" alt="Whatsapp - Emilly Rachel">Fale comigo sem
+                     compromisso</a>
+               </div>
+               <img class="hero-image" src="img/emilly-rachel-fisioterapeuta.jpg" alt="Emilly Rachel - Fisioterapeuta">
             </div>
-            <img class="hero-image" src="img/emilly-rachel-fisioterapeuta.jpg" alt="Emilly Rachel - Fisioterapeuta">
          </div>
       </div>
 
       <!-- SERVIÇOS -->
-      <div class="services">
+      <div class="services" id="servicos">
          <div class="container">
-            <h2 class="services-title">Tratamentos que ofereço</h2>
+            <h2 class="services-title">Tratamentos oferecidos</h2>
             <div class="services-grid">
                <div class="services-item">
-                  <img src="https://placehold.co/400x250" alt="Terapia Manual - Fisioterapia">
+                  <img class="services-image" src="img/reabilitacao.jpg"
+                     alt="Reabilitação pós-cirúrgica - Fisioterapia">
+                  <h3>Reabilitação pós-cirúrgica</h3>
+                  <p>Retorne à sua rotina com confiança.</p>
+               </div>
+               <div class="services-item">
+                  <img class="services-image" src="img/terapia-manual.jpg" alt="Terapia Manual - Fisioterapia">
                   <h3>Terapia manual</h3>
                   <p>A cura pelo toque: alívio e bem-estar em cada sessão.</p>
                </div>
                <div class="services-item">
-                  <img src="https://placehold.co/400x250" alt="Terapia Manual - Fisioterapia">
-                  <h3>Terapia manual</h3>
-                  <p>A cura pelo toque: alívio e bem-estar em cada sessão.</p>
+                  <img class="services-image" src="img/fisioterapia-vascular.jpg"
+                     alt="Fisioterapia vascular - Fisioterapia">
+                  <h3>Fisioterapia vascular</h3>
+                  <p>Melhore a sua circulação e fortaleça suas veias.</p>
                </div>
                <div class="services-item">
-                  <img src="https://placehold.co/400x250" alt="Terapia Manual - Fisioterapia">
-                  <h3>Terapia manual</h3>
-                  <p>A cura pelo toque: alívio e bem-estar em cada sessão.</p>
+                  <img class="services-image" src="img/liberacao-miofascial.jpg"
+                     alt="Liberação miofascial - Fisioterapia">
+                  <h3>Liberação miofascial</h3>
+                  <p>Desfaça nós e tensões musculares e sinta-se mais leve.</p>
                </div>
                <div class="services-item">
-                  <img src="https://placehold.co/400x250" alt="Terapia Manual - Fisioterapia">
-                  <h3>Terapia manual</h3>
-                  <p>A cura pelo toque: alívio e bem-estar em cada sessão.</p>
+                  <img class="services-image" src="img/fisioterapia-ortopedica.jpg"
+                     alt="Fisioterapia ortopédica - Fisioterapia">
+                  <h3>Fisioterapia ortopédica</h3>
+                  <p>Recupere sua estabilidade muscular e articular.</p>
                </div>
                <div class="services-item">
-                  <img src="https://placehold.co/400x250" alt="Terapia Manual - Fisioterapia">
-                  <h3>Terapia manual</h3>
-                  <p>A cura pelo toque: alívio e bem-estar em cada sessão.</p>
-               </div>
-               <div class="services-item">
-                  <img src="https://placehold.co/400x250" alt="Terapia Manual - Fisioterapia">
-                  <h3>Terapia manual</h3>
-                  <p>A cura pelo toque: alívio e bem-estar em cada sessão.</p>
+                  <img class="services-image" src="img/reabilitacao-cardiorrespiratoria.jpg"
+                     alt="Reabilitação cardiorrespiratória - Fisioterapia">
+                  <h3>Reabilitação cardiorrespiratória</h3>
+                  <p>Fortaleça seu coração e pulmões para viver melhor.</p>
                </div>
             </div>
-            <a class="btn" href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento" target="_blank"> <img src="img/icon-whatsapp.svg" alt="Whatsapp - Emilly Rachel">Fale comigo sem compromisso</a>
+            <a class="btn"
+               href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento"
+               target="_blank"> <img src="img/icon-whatsapp.svg" alt="Whatsapp - Emilly Rachel">Fale comigo sem
+               compromisso</a>
          </div>
       </div>
 
       <!-- COMO FUNCIONA -->
       <div class="detail">
          <div class="container">
-            <h2 class="detail-title">Como é o tratamento?</h2>
+            <h2 class="detail-title">Feito para você</h2>
             <div class="detail-grid">
                <div class="detail-item">
-                  <h3>Atendimento personalizado</h3>
-                  <p>Vou analisar o seu caso de forma individualizada para oferecer um tratamento pensado para você.</p>
+                  <div class="detail-number">1</div>
+                  <div class="detail-info">
+                     <h3>Atendimento personalizado</h3>
+                     <p>Vou analisar o seu caso de forma individualizada para oferecer um tratamento pensado para você.
+                     </p>
+                  </div>
                </div>
-               <div class="services-item">
-                  <h3>Atendimento no consultório ou na sua casa.</h3>
-                  <p>Dependendo do seu caso, posso realizar o atendimento em meu consultório ou até mesmo em domicílio.</p>
+               <div class="detail-item">
+                  <div class="detail-number">2</div>
+                  <div class="detail-info">
+                     <h3>Sessões no consultório ou na sua casa</h3>
+                     <p>Dependendo do seu caso, posso realizar o atendimento em meu consultório ou até mesmo em
+                        domicílio.</p>
+                  </div>
                </div>
-               <div class="services-item">
-                  <h3>Apoio contínuo</h3>
-                  <p>Enquanto estiver fazendo o seu tratamento estarei disponível para tirar dúvidas e oferecer dicas via Whatsapp.</p>
+               <div class="detail-item">
+                  <div class="detail-number">3</div>
+                  <div class="detail-info">
+                     <h3>Apoio contínuo</h3>
+                     <p>Enquanto estiver fazendo o seu tratamento estarei disponível para tirar dúvidas e oferecer dicas
+                        via Whatsapp.</p>
+                  </div>
                </div>
             </div>
-            <a class="btn" href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento" target="_blank"> <img src="img/icon-whatsapp.svg" alt="Whatsapp - Emilly Rachel">Fale comigo sem compromisso</a>
          </div>
       </div>
 
       <!-- TESTEMUNHAIS -->
-      <div class="depositions">
+      <div class="depositions" id="depoimentos">
          <div class="container">
             <h2 class="depositions-title">Pacientes satisfeitos <span class="text-primary">❤</span></h2>
             <div class="depositions-grid">
                <div class="depositions-item">
-                  <q>Uma profissional incrível, extremamente atensiosa e competente. O consultório bem equipado e muito limpo. Sempre explica tudo que está manuseando e fazendo em todas as tecnicas, além de realmente acompanhar o paciente nas suas evoluções e comemorar cada vitória conosco.</q>
+                  <q>Atendimento simplesmente fantástico! Profissional super capacitada, que consegue entender em
+                     detalhes as queixas e lesões a serem tratadas no paciente. Local super central e agradável.
+                     Recomendo a todos que possuem lesões derivadas do esporte e que busquem um profissional com a
+                     capacidade de entender e fazer o tratamento correto. Nota mil!</q>
                   <div class="depositions-patient">
-                     <img class="depositions-avatar" src="https://placehold.co/80x80" alt="">
+                     <img class="depositions-avatar" src="img/jose.jpg" alt="">
                      <div class="depositions-info">
-                        <h4>Natália Rafaele</h4>
-                        <small>Paciente com ombro deslocado</small>
+                        <h4>José Henrique</h4>
+                        <small>Sofria com _____</small>
                      </div>
                   </div>
                </div>
                <div class="depositions-item">
-                  <q>Uma profissional incrível, extremamente atensiosa e competente. O consultório bem equipado e muito limpo. Sempre explica tudo que está manuseando e fazendo em todas as tecnicas, além de realmente acompanhar o paciente nas suas evoluções e comemorar cada vitória conosco.</q>
+                  <q>Uma profissional incrível, extremamente atensiosa e competente. O consultório bem equipado e muito
+                     limpo. Sempre explica tudo que está manuseando e fazendo em todas as tecnicas, além de realmente
+                     acompanhar o paciente nas suas evoluções e comemorar cada vitória conosco.</q>
                   <div class="depositions-patient">
-                     <img class="depositions-avatar" src="https://placehold.co/80x80" alt="">
+                     <img class="depositions-avatar" src="img/natalia.jpg" alt="">
                      <div class="depositions-info">
                         <h4>Natália Rafaele</h4>
-                        <small>Paciente com ombro deslocado</small>
+                        <small>Sofria com _____</small>
                      </div>
                   </div>
                </div>
                <div class="depositions-item">
-                  <q>Uma profissional incrível, extremamente atensiosa e competente. O consultório bem equipado e muito limpo. Sempre explica tudo que está manuseando e fazendo em todas as tecnicas, além de realmente acompanhar o paciente nas suas evoluções e comemorar cada vitória conosco.</q>
+                  <q>Lugar aconchegante. Com relação a minha tendinite na região da ulna(pulso/punho), os exercícios
+                     passados por Emilly foram bastantes efetivos, fiquei realmente impressionado em como conseguiu
+                     atingir o lugar afetado e melhorar muito a dor que eu estava sentido logo nas primeiras sessões.
+                     Recomendo demais!</q>
                   <div class="depositions-patient">
-                     <img class="depositions-avatar" src="https://placehold.co/80x80" alt="">
+                     <img class="depositions-avatar" src="img/igor.jpg" alt="">
                      <div class="depositions-info">
-                        <h4>Natália Rafaele</h4>
-                        <small>Paciente com ombro deslocado</small>
+                        <h4>Igor Assunção</h4>
+                        <small>Sofria com Tendinite</small>
                      </div>
                   </div>
                </div>
                <div class="depositions-item">
-                  <q>Uma profissional incrível, extremamente atensiosa e competente. O consultório bem equipado e muito limpo. Sempre explica tudo que está manuseando e fazendo em todas as tecnicas, além de realmente acompanhar o paciente nas suas evoluções e comemorar cada vitória conosco.</q>
+                  <q>Atendimento incrível! Na primeira consulta já senti diferença. Além de uma ótima profissional, é
+                     uma ótima pessoa. Indico de olhos fechados!</q>
                   <div class="depositions-patient">
-                     <img class="depositions-avatar" src="https://placehold.co/80x80" alt="">
+                     <img class="depositions-avatar" src="img/alany.jpg" alt="">
                      <div class="depositions-info">
-                        <h4>Natália Rafaele</h4>
-                        <small>Paciente com ombro deslocado</small>
+                        <h4>Alany Thais</h4>
+                        <small>Sofria com _____</small>
                      </div>
                   </div>
                </div>
                <div class="depositions-item">
-                  <q>Uma profissional incrível, extremamente atensiosa e competente. O consultório bem equipado e muito limpo. Sempre explica tudo que está manuseando e fazendo em todas as tecnicas, além de realmente acompanhar o paciente nas suas evoluções e comemorar cada vitória conosco.</q>
+                  <q>Procurei ajuda para tratar da mialgia na região do trapézio e tive ótimos resultados! Amei tanto a
+                     dedicação e atenção que recebi dessa profissional que atualmente eu e meu esposo somos pacientes
+                     assíduos.</q>
                   <div class="depositions-patient">
-                     <img class="depositions-avatar" src="https://placehold.co/80x80" alt="">
+                     <img class="depositions-avatar" src="img/erika.jpg" alt="">
                      <div class="depositions-info">
-                        <h4>Natália Rafaele</h4>
-                        <small>Paciente com ombro deslocado</small>
+                        <h4>Erika Cossito</h4>
+                        <small>Sofria com Mialgia</small>
                      </div>
                   </div>
                </div>
+               <div class="depositions-item">
+                  <q>Adorei a Dra Emilly, pois além de muito atenciosa e educada, conseguiu resolver meu problema de
+                     forma eficaz. Fui à sua consulta, por meio de uma indicação e super recomendo também.</q>
+                  <div class="depositions-patient">
+                     <img class="depositions-avatar" src="img/beth.jpg" alt="">
+                     <div class="depositions-info">
+                        <h4>Beth Varela</h4>
+                        <small>Sofria com ____</small>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="btn"
+               href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento"
+               target="_blank"> <img src="img/icon-whatsapp.svg" alt="Whatsapp - Emilly Rachel">Fale comigo sem
+               compromisso</a>
+         </div>
+      </div>
+
+      <!-- SOBRE -->
+      <div class="about" id="sobre">
+         <div class="container">
+            <div class="about-grid">
+               <div class="about-text">
+                  <h2 class="about-title">Sobre mim</h2>
+                  <p>Muito prazer! Eu sou Emilly Rachel, fisioterapeuta formada pela UFRN. Atuo nas áreas de fisioterapia ortopédica e reabilitação cardiorrespiratória e vascular, com uma pós-graduação na mesma universidade. Minha missão de vida é tornar a fisioterapia uma parceria na busca por uma vida sem limitações.</p>
+                  <p>Acredito na colaboração entre profissional e paciente/família no tratamento de queixas funcionais. Vamos juntos construir um caminho para o sucesso e aprender maneiras de manter uma boa qualidade de vida. Estou aqui para ajudar nessa jornada!</p>
+               </div>
+               <img src="https://placehold.co/600x500" alt="">
             </div>
          </div>
       </div>
@@ -182,17 +261,35 @@
    <!-- FOOTER -->
    <footer class="footer">
       <div class="container">
-         <div class="footer-social">
-            <a href="https://www.instagram.com/emillyrachel/" target="_blank">
-               <img src="img/icon-instagram.svg" alt="Instagram - Emilly Rachel">
-            </a>
-            <a href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento" target="_blank">
-               <img src="img/icon-whatsapp-circle.svg" alt="Whatsapp - Emilly Rachel">
-            </a>
+         <div class="footer-grid">
+            <div class="footer-social">
+               <a href="https://www.instagram.com/emillyrachel/" target="_blank">
+                  <img src="img/icon-instagram.svg" alt="Instagram - Emilly Rachel">
+               </a>
+               <a href="https://wa.me/558494637009?text=Ol%C3%A1,%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20como%20funciona%20o%20atendimento"
+                  target="_blank">
+                  <img src="img/icon-whatsapp-circle.svg" alt="Whatsapp - Emilly Rachel">
+               </a>
+            </div>
+            <address>Telefone: (84) 99463-7009</br>Rua Dr. Horácio, 495 - Lagoa Nova, Natal/RN (<a
+                  href="https://www.google.com/maps/place/Emilly+Rachel+Fisioterapeuta/@-5.8127758,-35.2152465,18z/data=!4m6!3m5!1s0x7b2fff309f43c91:0x1af412e024005871!8m2!3d-5.8127918!4d-35.2147825!16s%2Fg%2F11srftfk78?entry=ttu">mapa</a>)
+            </address>
          </div>
-         <address>Rua Dr. Horácio, 495 - Lagoa Nova, Natal/RN (<a href="https://www.google.com/maps/place/Emilly+Rachel+Fisioterapeuta/@-5.8127758,-35.2152465,18z/data=!4m6!3m5!1s0x7b2fff309f43c91:0x1af412e024005871!8m2!3d-5.8127918!4d-35.2147825!16s%2Fg%2F11srftfk78?entry=ttu">ver mapa</a>)</address>
       </div>
    </footer>
-    
+
+   <script>
+      window.addEventListener('scroll', function () {
+        var headerElements = document.getElementsByClassName('header');
+        
+        if (window.scrollY <= 40) {
+          headerElements[0].classList.remove('no-top');
+        } else {
+          headerElements[0].classList.add('no-top'); 
+        }
+      });
+    </script>
+
 </body>
+
 </html>
