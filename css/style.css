@@ -528,6 +528,11 @@ q {
       align-items: center;
    }
 
+   .about p{
+      font-size: 16px;
+      line-height: 3.5rem;
+   }
+
    /* FOOTER */
    .footer-grid{
       display: flex;
